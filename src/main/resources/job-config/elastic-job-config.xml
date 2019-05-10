@@ -21,7 +21,7 @@
 
     <!-- 配置简单作业   -->
     <job:simple id="demoSimpleJob"
-                class="com.study.job.demo.job.DemoSimpleJob"
+                class="com.zhibei.job.simpleDemoSimpleJob"
                 registry-center-ref="study-elastic-job-regCenter"
                 cron="0/5 * * * * ?"
                 sharding-total-count="1"
