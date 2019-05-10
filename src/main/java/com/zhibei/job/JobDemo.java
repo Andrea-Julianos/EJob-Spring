@@ -20,6 +20,7 @@ public class JobDemo {
     public static void main(String[] args) throws UnknownHostException {
         System.out.println("Start...");
         System.out.println(InetAddress.getLocalHost());
+        System.out.println("ok");
         new JobScheduler(createRegistryCenter(), createSimpleJobConfiguration()).init();
         //new JobScheduler(createRegistryCenter(), createDataflowJobConfiguration()).init();
     }
